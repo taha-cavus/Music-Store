@@ -1,0 +1,134 @@
+/************************************************GLOBAL**************************************************/
+*{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.45rem
+}
+body{
+    margin: 0;
+}
+
+.fs-s{
+    font-size: 1rem;
+    
+}
+.fs-m{
+    font-size: 1.5rem;
+}
+.fs-l{
+    font-size: 2.5rem;
+}
+a{
+    text-decoration: none;
+}
+
+/************************************************HOME**************************************************/
+body{
+    background-color: #D3ECA7;
+}
+header{
+    background-color: #19282F;
+    height: 140px;
+}
+.menu-a{
+    margin: 1rem;
+    color: chartreuse;
+}
+.header{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+ul{
+    list-style-position: inside;
+}
+.home-h2{
+    color: crimson;
+}
+.home-h3{
+    font-size: 1.25rem;
+    color:darkblue;
+}
+header a{
+    border: 3px solid rosybrown;
+    border-radius: 8px;
+    padding: 2px; 
+    
+}
+a:hover{
+background-color: yellow;
+}
+header a:hover{
+    border: 3px  solid rosybrown;
+    border-radius: 8px;
+    padding: 2px;
+    color: #19282F;
+    background-color: chartreuse;
+}
+#sec-home h2 {
+    margin-bottom: 0.5rem;
+}
+#sec-home p {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+#sec-home h3 {
+    margin-bottom: 0.25rem;
+}
+#sec-home ul {
+    margin-top: 0.25rem;
+}
+
+
+
+/************************************************PRODUCTS***********************************************/
+
+#body-pr{
+    background-color: white;
+}
+h4{
+    display: inline-block;
+}
+p{
+    font-size: 1.2rem;
+}
+#sec-prod span{
+    color: red;
+}
+#sec-prod article{
+    margin: 3rem;
+}
+#sec-prod p{
+    margin-top: 0;
+}
+#sec-prod h4{
+    margin-bottom: 1rem;
+}
+
+
+/************************************************ABOUT US***********************************************/
+#about-us{
+    background-color: #B33030;
+    text-align: start;
+}
+#about-us p{
+    color: white;
+}
+#about-us hr{
+    width: 50%;
+    height:2px;
+    border-width:0;
+    color:gray; 
+    background-color:gray
+}
+
+/************************************************Footer***********************************************/
+footer{
+    background: url(/img/footer.jpg);
+    background-size: cover;
+}
+section span{
+    color: black;
+    font-weight: bold;
+}
